@@ -1,5 +1,6 @@
 import Blog from "@/lib/components/Blog";
 import Concept from "@/lib/components/Concept";
+import Footer from "@/lib/components/Footer";
 import Header from "@/lib/components/Header";
 import Nav from "@/lib/components/Nav";
 import Visual from "@/lib/components/Visual";
@@ -14,6 +15,7 @@ export default function Home() {
         <Concept />
         <Blog />
       </main>
+      <Footer />
     </div>
   );
 }
