@@ -1,3 +1,4 @@
+import Concept from "@/lib/components/Concept";
 import Header from "@/lib/components/Header";
 import Nav from "@/lib/components/Nav";
 import Visual from "@/lib/components/Visual";
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Visual />
         <Nav />
+        <Concept />
       </main>
     </div>
   );
